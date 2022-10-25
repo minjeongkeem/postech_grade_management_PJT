@@ -3,13 +3,13 @@
 
 # ## 성적관리 프로그램
 
-# In[ ]:
+
 
 
 ## show, search, changescore, searchgrade, add, remove, quit
 
 
-# In[34]:
+
 
 
 fr = open('students.txt', "r")
@@ -276,41 +276,13 @@ while True:
         
 fr. close()
 
-
-# In[ ]:
-
-
-
-
-
-# In[30]:
-
-
 stu_list
-
-
-# In[32]:
-
-
 stu_list.pop(0)
-
-
-# In[33]:
-
-
 stu_list
-
-
-# In[1]:
-
 
 a = []
 if not len(a):
     print("List is empty.")
-
-
-# In[33]:
-
 
 def quit_function(stu_list):
     s_data = input("Save data?[yes/no]: ")
@@ -332,20 +304,9 @@ def quit_function(stu_list):
             
 quit_function(stu_list)
 
-
-# In[32]:
-
-
 stu_list
 
-
-# In[30]:
-
-
 y
-
-
-# In[ ]:
 
 
 
